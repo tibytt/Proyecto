@@ -1,0 +1,17 @@
+$nav-color: #5f5f5f;
+
+nav{
+    height: 100%;
+    //position: fixed;
+    overflow: auto;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+
+    background-color: $nav-color;
+
+}
+form{
+    position: relative;
+    left: 820px;
+}
