@@ -6,6 +6,8 @@ import { HomeComponent } from './home/home.component';
 import { RealhomeComponent } from './realhome/realhome.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
+import { LeftContentComponent } from './left-content/left-content.component';
+import { RightContentComponent } from './right-content/right-content.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { ContentComponent } from './content/content.component';
     HomeComponent,
     RealhomeComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
+    LeftContentComponent,
+    RightContentComponent
   ],
   imports: [
     AppRoutingModule,
