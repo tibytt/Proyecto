@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import{ ReactiveFormsModule } from '@angular/forms'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import{AppRoutingModule} from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -29,6 +30,7 @@ import { PostsComponent } from './posts/posts.component';
     PostsComponent
   ],
   imports: [
+    ReactiveFormsModule,
     AppRoutingModule,
     BrowserModule,
     NgbModule.forRoot()

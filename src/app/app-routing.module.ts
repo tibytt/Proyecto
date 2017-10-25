@@ -8,8 +8,8 @@ import { PostsComponent } from './posts/posts.component';
 
 
 
-const routes: Routes = [{path: 'home', component:RealhomeComponent}, {path: 'contacto' , component:FormularioComponent },
-{path:"**", component: NotfoundComponent}, {path:"posts", component:PostsComponent}];
+const routes: Routes = [ {path: '', component:RealhomeComponent},{path: 'home', component:RealhomeComponent}, {path: 'contacto' , component:FormularioComponent },
+ {path:"posts", component:PostsComponent}, {path:"**", component: NotfoundComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
