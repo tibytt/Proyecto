@@ -14,6 +14,8 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PostsComponent } from './posts/posts.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+import { EnviadoComponent } from './enviado/enviado.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { PostsComponent } from './posts/posts.component';
     FormularioComponent,
     NotfoundComponent,
     NavbarComponent,
-    PostsComponent
+    PostsComponent,
+    NosotrosComponent,
+    EnviadoComponent
   ],
   imports: [
     ReactiveFormsModule,

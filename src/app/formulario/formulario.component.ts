@@ -12,6 +12,11 @@ export class FormularioComponent implements OnInit {
   userform= new FormGroup({
     email : new FormControl(""),
     password: new FormControl(""),
+    direccion: new FormControl(""),
+    pais: new FormControl(""),
+    ciudad: new FormControl(""),
+    provincia: new FormControl(""),
+    codigo: new FormControl(""),
 
 
 

@@ -13,24 +13,24 @@
         </div>
         <div class="form-group">
           <label for="inputAddress">Direccion</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 callerara" name="address" >
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 callerara" name="address" formControlName= "direccion" >
         </div>
         <div class="form-group">
           <label for="inputAddress2">Pais</label>
-          <input type="text" class="form-control" id="inputAddress2" name="addresso" placeholder="Pais"  >
+          <input type="text" class="form-control" id="inputAddress2" name="addresso" placeholder="Pais" formControlName= "pais"  >
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputCity">Ciudad</label>
-            <input type="text" class="form-control" id="inputCity" name="city" placeholder="Ciudad" >
+            <input type="text" class="form-control" id="inputCity" name="city" placeholder="Ciudad" formControlName= "ciudad">
           </div>
           <div class="form-group col-md-4">
             <label for="inputState">Provincia</label>
-            <input type="text" class="form-control" id="inputstate" name="state" placeholder="Provincia" >
+            <input type="text" class="form-control" id="inputstate" name="state" placeholder="Provincia" formControlName= "provincia" >
           </div>
           <div class="form-group col-md-2">
             <label for="inputZip">CodigoPostal</label>
-            <input type="text" class="form-control" id="inputZip" name="zip" >
+            <input type="text" class="form-control" id="inputZip" name="zip" formControlName= "codigo" >
           </div>
         </div>
         <div class="form-group">
@@ -40,7 +40,7 @@
             </label>
           </div>
         </div>
-        <button type="submit" class="btn btn-dark">Enviar</button>
+        <button type="submit" class="btn btn-dark"><a href="/enviado">enviar</a> </button>
       </form>
 
 
