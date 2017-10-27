@@ -9,7 +9,7 @@ import { RealhomeComponent } from './realhome/realhome.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { LeftContentComponent } from './left-content/left-content.component';
-import { RightContentComponent } from './right-content/right-content.component';
+
 import { FormularioComponent } from './formulario/formulario.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -25,7 +25,7 @@ import { EnviadoComponent } from './enviado/enviado.component';
     FooterComponent,
     ContentComponent,
     LeftContentComponent,
-    RightContentComponent,
+   
     FormularioComponent,
     NotfoundComponent,
     NavbarComponent,
