@@ -1,13 +1,22 @@
 import { Component, OnInit } from '@angular/core';
+import { PostService } from '../post.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
+  providers: [PostService],
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  posts:Array<any> = [];
+  
+      constructor(private p: PostService) {
+          this.p.getAll().subscribe(
+              result => this.posts = result,
+              error => console.error('Error: ')
+          );
+      }
 
   ngOnInit() {
   }

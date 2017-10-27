@@ -16,7 +16,7 @@ export class FormularioComponent implements OnInit {
     pais: new FormControl(""),
     ciudad: new FormControl(""),
     provincia: new FormControl(""),
-    codigo: new FormControl(""),
+    codigo: new FormControl("")
 
 
 
@@ -26,10 +26,12 @@ export class FormularioComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
 
   }
 
   onSubmit (){
     console.log(this.userform.value);
+  
   }
 }

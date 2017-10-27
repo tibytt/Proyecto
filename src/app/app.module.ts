@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import{ ReactiveFormsModule } from '@angular/forms'
+import{ ReactiveFormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import{AppRoutingModule} from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PostsComponent } from './posts/posts.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { EnviadoComponent } from './enviado/enviado.component';
+import { CommentsComponent } from './comments/comments.component';
+
 
 @NgModule({
   declarations: [
@@ -31,12 +34,14 @@ import { EnviadoComponent } from './enviado/enviado.component';
     NavbarComponent,
     PostsComponent,
     NosotrosComponent,
-    EnviadoComponent
+    EnviadoComponent,
+    CommentsComponent
   ],
   imports: [
     ReactiveFormsModule,
     AppRoutingModule,
     BrowserModule,
+    HttpModule,
     NgbModule.forRoot()
   ],
   providers: [],
